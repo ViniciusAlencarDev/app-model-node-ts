@@ -8,7 +8,7 @@
 ---
 - Agile methodologies (Scrum, XP programming, ...)
 ---
-- Architects (REST, SOAP, microservices, Layers - MVC,...)
+- Architects (REST, SOAP, microservices, Layers - MVC, ...)
 ---
 - Security gateway
 ---
