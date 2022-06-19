@@ -17,5 +17,15 @@
 
 - Closure
 ---
+- Generators
+___
+
+## Other
+
+- Babel
+---
+- Webpack
+---
+
 Let`s code 🚀
 --- 

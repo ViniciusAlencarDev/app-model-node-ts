@@ -1,0 +1,35 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "App MAIN",
+        "description": "Uma apliacao geral",
+        "termsOfService": "http://localhost:3000/terms",
+        "contact": {
+            "email": ""
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000/v1"
+        }
+    ],
+    "paths": {
+         "/products": {
+             "post": {
+                 "sumary": "Ola mundo",
+                 "description": "",
+                 "tags": ["Products"],
+                 "requestBody": {
+                     "content": {
+                         "application/json": {
+                             "schema": {
+                                 
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+    }
+}

@@ -5,7 +5,7 @@ import swaggerUi from 'swagger-ui-express';
 import dotenv from 'dotenv';
 
 import routes from './routes';
-// import swaggerFile from './documentation/swagger';
+import swaggerFile from './documentation/swagger.json';
 
 class App {
 
@@ -36,10 +36,7 @@ class App {
     }
 
     documentation() {
-        // const portDocumentation = 3333;
-        // http.createServer(this.app).listen(portDocumentation)
-        // console.log("Listening at:// port:%s (HTTP)", portDocumentation)
-        // app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerFile))
+        this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerFile))
     }
     
 }
