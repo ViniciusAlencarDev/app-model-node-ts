@@ -26,6 +26,24 @@ ___
 ---
 - Webpack
 ---
+- Elasticsearch
+---
+- CI/CD
+---
+- TDD
+---
+- DDD
+---
+- Event Source
+---
+- SOLID
+---
+- Design Pattern
+---
+- Lambda
+---
+- Frameworks (NestJS, AdonisJS, ...)
+---
 
 Let`s code 🚀
 --- 
