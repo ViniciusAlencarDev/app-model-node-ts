@@ -10,7 +10,7 @@ export type CallbackType = (success: boolean) => void | any;
 
 export type OptionsTransportType = {
     host: string | undefined;
-    port: string | undefined;
+    port: number | undefined;
     secure: boolean;
     auth: {
         user: string | undefined;

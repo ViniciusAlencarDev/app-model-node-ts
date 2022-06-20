@@ -24,6 +24,7 @@ class App {
     }
 
     middlewares() {
+        this.app.use(express.json())
         this.app.use(cors())
     }
 
@@ -38,7 +39,7 @@ class App {
     documentation() {
         this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerFile))
     }
-    
+
 }
 
 export default new App().getApp();
