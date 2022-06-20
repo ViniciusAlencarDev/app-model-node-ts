@@ -38,12 +38,13 @@ ___
 ---
 - SOLID
 ---
-- Design Pattern
+- Design Patterns
 ---
 - Lambda
 ---
 - Frameworks (NestJS, AdonisJS, ...)
 ---
+- DTO's
 
 Let`s code 🚀
 --- 
